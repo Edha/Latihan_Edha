@@ -1,13 +1,20 @@
 #PRAKTIKUM TCC
     <title>Praktikum TCC SUWEDA</title>
 
-<body>
-    <div id="login">
-        <h3>Form Login</h3>
-            <form action="">
-                <input type="text" name="username" placeholder="Username">
-                <input type="email" name="Email" placeholder="Email">
-                <input type="submit" name="submit" value="Login">
-            </form>
-    </div>
-</body>
+<tr>
+    <th colspan="3" scope="col">FORM LOGIN</th>
+  </tr>
+  <tr>
+    <td>Username</td>
+    <td>:</td>
+    <td><input type="text" name="username"/></td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td>:</td>
+    <td><input type="text" name="password"/></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="2"><input type="submit" name="masuk" value="masuk"></td>
+  </tr>
